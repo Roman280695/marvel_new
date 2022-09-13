@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 import './randomChar.scss';
 import useMarvelService from '../../services/MarvelService';
-import ErrorMesage from '../errorMessage/ErrorMesage';
+import ErrorMesage from '../errorMessage/ErrorMessage';
 import mjolnir from '../../resources/img/mjolnir.png';
 import Spinner from '../spinner/Spinner';
 

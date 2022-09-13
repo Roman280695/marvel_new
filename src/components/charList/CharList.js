@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Spinner from '../spinner/Spinner';
-import ErrorMesage from '../errorMessage/ErrorMesage';
+import ErrorMesage from '../errorMessage/ErrorMessage';
 import useMarvelService from '../../services/MarvelService';
 import './charList.scss';
 
@@ -43,7 +43,7 @@ const CharList = (props) => {
         setOffset(offset => offset + 9);
         setCharEnded(charEnded => ended);
 
-
+        console.log('render');
     }
 
     const itemRefs = useRef([]);
